@@ -1,4 +1,4 @@
-language: xenial
+dist: xenial
 #hey
 install:
  - sudo apt-get install python
