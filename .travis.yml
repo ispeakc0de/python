@@ -4,10 +4,11 @@ install:
  - sudo apt-get install python
 script:
  - python index.py
+ - echo $shubh
 deploy:
  - provider: pages
  - skip_cleanup: true
- - github_token: "wdwdnnjdjde"
+ - github_token: $shubh
  - keep_history: true
  - on:
     branch:
